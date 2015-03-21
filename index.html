@@ -8,16 +8,82 @@
     <script src="foundation/js/vendor/modernizr.js"></script>
 </head>
 <body>
-	<h1>
-		Esto es un Blog basado en Foundation
-	</h1>
+	<div class="progress small alert radius">
+	  <span class="meter" style="width: 40%"></span>
+	</div>
+	<header class="row">
+		<h1>
+			Esto es un Blog basado en Foundation
+		</h1>
+	</header>
+	<!-- ================= menu de navegacion Foundation  ======= -->
+
 	<section class="row">
-		<article class="small-7 columns">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis voluptates veniam placeat voluptatum, commodi. Unde ullam et itaque veniam fugiat. Architecto dolore voluptate veniam est provident dolor aperiam sapiente aliquam.
-		</article>		
-		<article class="small-4 columns">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis voluptates veniam placeat voluptatum, commodi. Unde ullam et itaque veniam fugiat. Architecto dolore voluptate veniam est provident dolor aperiam sapiente aliquam.
-		</article>
+			<nav class="top-bar" data-topbar role="navigation">
+		  <ul class="title-area">
+		    <li class="name">
+		      <h1><a href="#">MD</a></h1>
+		    </li>
+		     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+		    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+		  </ul>
+
+		  <section class="top-bar-section">
+		    <!-- Right Nav Section -->
+		    <ul class="right">
+		      <li class="active"><a href="#">Boton Derecha</a></li>
+		      <li class="has-dropdown">
+		        <a href="#">Desplegable</a>
+		        <ul class="dropdown">
+		          <li><a href="#">Primer Desplegable</a></li>
+		          <li class="active"><a href="#">Link activo Desplegable</a></li>
+		        </ul>
+		      </li>
+		    </ul>
+
+		    <!-- Left Nav Section -->
+		    <ul class="left">
+		      <li><a href="#">Left Nav Button</a></li>
+		    </ul>
+		  </section>
+		</nav>
+
+		<!-- =================================================  -->
+		<section class="small-12 medium-8 large-7 columns">
+			<article class="row panel">
+				<h2>Titulo de Post</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis voluptates veniam placeat voluptatum, commodi. Unde ullam et itaque veniam fugiat. Architecto dolore voluptate veniam est provident dolor aperiam sapiente aliquam.</p>
+				<a href="#" class="button radius">Ir al post</a>
+			</article>
+			<article class="row panel">
+				<h2>Titulo de Post</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis voluptates veniam placeat voluptatum, commodi. Unde ullam et itaque veniam fugiat. Architecto dolore voluptate veniam est provident dolor aperiam sapiente aliquam.</p>
+				<a href="#" class="button radius expand">Ir al post</a>
+			</article>
+			<div>
+				<a href="#" class="button small">Ir al post</a>
+				<a href="#" class="button medium">Ir al post</a>
+				<a href="#" class="button large">Ir al post</a>
+			</div>
+		</section>		
+		<section class="small-12 medium-4 large-4 columns">
+			<section class="row" data-equalizer>
+				<article class="small-6 columns panel" data-equalizer-watch>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis voluptatvoluptatum, commodi. </p>
+				</article>
+				<article class="small-6 columns panel" data-equalizer-watch>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis voluptates veniam placluptatum, commodi.</p>
+				</article>
+			</section>
+			<section class="row" data-equalizer>
+				<article class="small-6 columns panel" data-equalizer-watch>
+					<p>Lorem ipsum dolur adipisicing elit. Quis voluptates veniam placeat voluptatum, commodi. </p>
+				</article>
+				<article class="small-6 columns panel" data-equalizer-watch>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis voluptates veniam placeat voluptatum, commodi.</p>
+				</article>
+			</section>
+		</section>
 	</section>
 
 
